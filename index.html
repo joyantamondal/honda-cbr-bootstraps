@@ -1,40 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/custom.css">
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- *********************
         Header Start
      ***********************-->
-     <header>
+    <header class="header container-fluid mb-5">
+        <!-- navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link header-text active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-text" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-text" href="#news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header-text" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item ">
+                            <button type="button"
+                                class="px-3 py-1 border-0 honda-cbr-btn btn btn-warning ">Login</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end -->
 
-     </header>
+        <!-- banner section start -->
+        <section>
+            <div class="container p-4">
+                <div class="row row-cols-1 row-cols-lg-2 d-flex align-items-center gx-5 gy-5">
+                    <div class="col">
+                        <small class="header-text">Computer-controlled digital transistorized with electronic
+                            advance</small>
+                        <h1 class="mb-3 mt-2 header-text fw-bold">Honda CBR 300R</h1>
+                        <p class="mb-3 header-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit
+                            officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                        <!-- Button trigger modal -->
+
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            class="shadow-none rounded border-0 px-5 py-2 honda-cbr-btn btn btn-warning text-capitalize">Purchase</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Do You Have Any Promo Code?</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="#">
+                                            <input class="m-4" type="text" placeholder="Enter Promo Here...">
+                                            <input class="bg-warning border-0 p-2" type="submit" value="Apply"> <br>
+                                            <label class="m-4" for="discount">After Discount Price.</label>
+                                            <input type="text" id="discount" name="discount">
+                                            <br>
+                                            <input class="m-4 bg-dark text-warning border-0 p-2 rounded-pill "
+                                                type="submit" value="Confirm Order">
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- btn -->
+
+
+                    </div>
+                    <div class="col">
+                        <img class="w-100" src="images/header-bike.png" alt="">
+                    </div>
+                </div>
+        </section>
+        <!-- banner section end -->
+    </header>
     <!-- *********************
         Header End
      ***********************-->
-    
-     <!-- *********************
+
+    <!-- *********************
         Main Start
      ***********************-->
-        <main>
+    <main>
+        <!-- Featured Bike Section Start -->
+        <section class="mb-5">
+            <h1 class="fw-bold  text-center">Fetured Bikes 2021</h1>
+            <p class="text-center"><small class="text-center">Best bike collection</small><span class="line mb-3"></span></p>
+            
+            <div class="container p-5">
+                <div class="row row-cols-1 row-cols-lg-3 d-flex align-items-center gx-5 gy-5">
+                    <div class="col">
+                        <img class="w-100 honda-feature-gray" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="w-100" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="w-100 honda-feature-gray" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
 
-        </main>
-     <!-- *********************
+        </section>
+        <!-- Featured Bike Section End -->
+    </main>
+    <!-- *********************
         Main End
      ***********************-->
-     <!-- *********************
+    <!-- *********************
         Footer Start
      ***********************-->
-     <footer>
-         
-     </footer>
-     <!-- *********************
+    <footer>
+
+    </footer>
+    <!-- *********************
         Footer End
      ***********************-->
     <script src="js/bootstrap.bundle.min.js"></script>

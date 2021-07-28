@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header section style */
+.header{
+    background-color: #264653;
+} 
+.header-text{
+    color: white!important;
+}
+
+.honda-cbr-btn{
+    color: white!important;
+    background-color: #E76F51 !important;
+}
+/* main style */
+/* feature section style */
+.honda-feature-gray{
+    filter: grayscale(100%);
+}
+.line{
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 5%;
+    background-color: #E76F51;
+}
