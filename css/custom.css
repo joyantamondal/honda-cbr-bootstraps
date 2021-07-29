@@ -1,27 +1,45 @@
-body{
-    font-family: 'Poppins', sans-serif;
-}
-/* header section style */
-.header{
-    background-color: #264653;
-} 
-.header-text{
-    color: white!important;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.honda-cbr-btn{
-    color: white!important;
-    background-color: #E76F51 !important;
+/**********
+ header style 
+***********/
+.header {
+  background-color: #264653;
 }
-/* main style */
+.header-text {
+  color: white !important;
+}
+
+.honda-cbr-btn {
+  color: white !important;
+  background-color: #e76f51 !important;
+}
+/* **********
+main style 
+**************/
 /* feature section style */
-.honda-feature-gray{
-    filter: grayscale(100%);
+.honda-feature-gray {
+  filter: grayscale(100%);
 }
-.line{
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 5%;
-    background-color: #E76F51;
+.line {
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 5%;
+  background-color: #e76f51;
+}
+
+/* Happy CLient Section style */
+.text-orange {
+  color: #e76f51;
+}
+.rating {
+}
+.rating-icon {
+  color: #e77c40;
+}
+.client-name-text {
+  color: #23a6f0;
 }
